@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Evangelista | Software Developer & Mathematician</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000000;
+            color: #f3f4f6;
+        }
+        .scroll-fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .scroll-fade-in.scrolled-in {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<div class="max-w-4xl mx-auto p-8 md:p-12">
+    <header class="text-center py-16">
+        <h1 class="text-5xl md:text-7xl font-bold text-white tracking-tighter">Adam Evangelista</h1>
+        <p class="mt-4 text-xl md:text-2xl text-gray-400">Software Developer | Mathematical Sciences</p>
+        <div class="mt-8 flex justify-center gap-6">
+            <a href="https://github.com/adamevangelista" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.168 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd" /></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/adam-evangelista/" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:adamngevangelista@gmail.com" class="text-gray-400 hover:text-white transition-colors duration-300">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+            </a>
+        </div>
+    </header>
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Objective</h2>
+        <p class="text-lg text-gray-400 leading-relaxed">
+            A highly motivated CS and Math student seeking internship or entry-level role in software development. Eager to apply a strong foundation in algorithmic problem-solving, full-stack web development, and machine learning principles to build innovative and impactful software solutions.
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Education</h2>
+        <div class="bg-gray-800/50 p-6 rounded-lg">
+            <div class="flex justify-between items-start mb-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-white">New Jersey Institute of Technology</h3>
+                    <p class="text-md text-gray-400">Bachelor of Science, Computer Science & Mathematical Sciences. GPA: 4.0/4.0</p>
+                </div>
+                <p class="text-md text-gray-500">Expected May 2028</p>
+            </div>
+
+            <div class="mb-6">
+                <h4 class="text-sm font-bold text-gray-300 uppercase tracking-wider mb-3">Relevant Coursework</h4>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Calculus I & II</span>
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Differential Equations</span>
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Physics I & II</span>
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Probability & Statistics</span>
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Data Structures & Algorithms</span>
+                    <span class="bg-gray-700/50 text-gray-300 text-xs font-medium px-2.5 py-1 rounded border border-gray-600">Linear Algebra</span>
+                </div>
+            </div>
+
+            <div>
+                <h4 class="text-sm font-bold text-gray-300 uppercase tracking-wider mb-2">Research Interests</h4>
+                <p class="text-sm text-gray-400 leading-relaxed">
+                    Computational and Applied Mathematics, Artificial Intelligence
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Experience</h2>
+        <div class="space-y-8">
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white">JCFabLab</h3>
+                        <p class="text-md font-medium gradient-text">Fabrication Assistant</p>
+                    </div>
+                    <p class="text-md text-gray-500">Sept 2024 – Present</p>
+                </div>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Operate industrial-grade CNC machines, laser cutters, and 3D printers.</li>
+                    <li>Fabricated high-fidelity prototypes of custom surgical tools and patient-specific implants using biocompatible photopolymer resins on SLA 3D printers.</li>
+                    <li>Assisted customers in translating CAD models into physical prototypes.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white">New Jersey Institute of Technology</h3>
+                        <p class="text-md font-medium gradient-text">Calculus II Tutor</p>
+                    </div>
+                    <p class="text-md text-gray-500">Sep 2024 – Present</p>
+                </div>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Clarified complex mathematical concepts, including integration techniques, sequences, and series, to students in one-on-one and group settings.</li>
+                    <li>Developed tailored teaching strategies to accommodate different learning styles, improving student comprehension.</li>
+                    <li>Resulted in improved academic performance for tutored students.</li>
+                </ul>
+            </div>
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <div class="flex justify-between items-start mb-2">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white">Mathnasium</h3>
+                        <p class="text-md font-medium gradient-text">Math Tutor</p>
+                    </div>
+                    <p class="text-md text-gray-500">Feb 2024 – Mar 2024</p>
+                </div>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Provide personalized instruction in SAT Math, Geometry, Algebra, and Pre-Calculus to students ranging from elementary to high school.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Personal Projects</h2>
+        <div class="space-y-8">
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-white">RepGod - Full Stack Workout Analytics Platform</h3>
+                <p class="mt-2 text-gray-400 mb-4">Engineered a data-driven workout tracker focused on progressive overload, features data visualization and a relational database for complex fitness metrics.</p>
+                <div class="flex gap-4 mb-4">
+                    <a href="https://github.com/adamevangelista/repgod-app" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">View on GitHub &rarr;</a>
+                    <a href="https://adamevangelista.pythonanywhere.com/" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">View Live Site &rarr;</a>
+                </div>
+
+                <ul class="list-disc list-inside text-gray-400 text-sm space-y-1 mb-4">
+                    <li>Replaced manual fitness logging with a streamlined web app, reducing data entry time by through custom presets and smart-fill features.</li>
+                    <li>Built a custom REST API in Flask to serve dynamic content and handle asynchronous requests for a smooth, app-like user experience.</li>
+                    <li>Solved data fragmentation issues by implementing an algorithm which merge duplicate exercise entries.</li>
+                    <li>Integrated Chart.js to visualize long-term strength trends and provide actionable insights using calculated 1-Rep Max metrics.</li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Python (Flask)</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">SQLAlchemy</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">JavaScript (ES6)</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Chart.js</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">REST API</span>
+                </div>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-white">Facial Recognition Model</h3>
+                <p class="mt-2 text-gray-400 mb-4">An end-to-end computer vision pipeline built in Python, using Principal Component Analysis (PCA) to perform facial recognition from first principles.</p>
+
+                <div class="flex gap-4 mb-4">
+                    <a href="https://github.com/adamevangelista/facial-recognition-with-pca" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">View on GitHub &rarr;</a>
+                </div>
+
+                <ul class="list-disc list-inside text-gray-400 text-sm space-y-1 mb-4">
+                    <li>Built a computer vision system from scratch in Python using Scikit-learn and NumPy, covering data loading, preprocessing, and model evaluation.</li>
+                    <li>Implemented Principal Component Analysis (PCA) to extract Eigenfaces, reducing complex image data into specific features for efficient processing.</li>
+                    <li>Trained and optimized a Support Vector Machine (SVM) classifier to identify individuals from the Labeled Faces in the Wild (LFW) dataset.</li>
+                    <li>Applied standard computer vision techniques including grayscale conversion, resizing, and pixel normalization to prepare raw image data for algorithmic processing.</li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Scikit-learn</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Machine Learning</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">PCA</span>
+                </div>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-white">Genshin Rotation Visualizer</h3>
+                <p class="mt-2 text-gray-400 mb-4">A full-stack web application that parses gcsim data files using a Python/Flask backend and renders them as interactive timelines with a JavaScript/Chart.js frontend.</p>
+
+                <div class="flex gap-4 mb-4">
+                    <a href="https://github.com/adamevangelista/genshin-rotation-visualizer" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">View on GitHub &rarr;</a>
+                </div>
+
+                <ul class="list-disc list-inside text-gray-400 text-sm space-y-1 mb-4">
+                    <li>Engineered a responsive web app using Python/Flask (backend) and HTML/JavaScript (frontend) to visualize complex game mechanics.</li>
+                    <li>Developed a custom parser to process unstructured text-based rotation files (.gsim), extracting precise action sequences and timings.</li>
+                    <li>Integrated Chart.js to render sequential timelines of character actions, showing optimal gameplay.</li>
+                    <li>Designed a modular system with a dedicated JavaScript database for character assets, allowing for easy addition of new teams and characters.</li>
+                    <li>Implemented a local file serving system to eliminate dependencies on external image hosts, ensuring consistent application performance.</li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Flask</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Chart.js</span>
+                </div>
+            </div>
+
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-white">TFT Trait Tracker</h3>
+                <p class="mt-2 text-gray-400 mb-4">A Python-based command-line tool that uses a custom scoring algorithm to provide real-time strategic advice for Teamfight Tactics.</p>
+
+                <div class="flex gap-4 mb-4">
+                    <a href="https://github.com/adamevangelista/tft-trait-tracker" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors">View on GitHub &rarr;</a>
+                </div>
+
+                <ul class="list-disc list-inside text-gray-400 text-sm space-y-1 mb-4">
+                    <li>Designed and implemented a custom scoring algorithm in Python to evaluate game states and provide optimal, real-time unit purchasing suggestions.</li>
+                    <li>Built an interactive CLI tool that processes user input for board state, shop inventory, and opponent data to output recommendations.</li>
+                    <li>Incorporated game factors such as contested units and economy into the scoring model to mirror high-level player decision-making.</li>
+                    <li>Created a transparent output system that explains the reasoning behind each recommendation.</li>
+                </ul>
+
+                <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Algorithms</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">JSON</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Extracurriculars</h2>
+        <div class="space-y-8">
+            <div class="bg-gray-800/50 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold text-white">Premier Transit Strategies</h3>
+                <p class="text-md font-medium gradient-text mb-2">Web Developer</p>
+                <a href="https://adamevangelista.github.io/premier-transit-website/" class="text-sm font-medium text-blue-400 hover:text-blue-300 transition-colors block mb-4">View Website &rarr;</a>
+                <ul class="list-disc list-inside text-gray-400 space-y-2">
+                    <li>Redesigned and modernized the company website, replacing a static page with a responsive web application(call and booking system).</li>
+                    <li>Implemented interactive features for traffic monitoring and data analysis.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="my-16 scroll-fade-in">
+        <h2 class="text-3xl font-bold text-white mb-6 tracking-tight">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">Technical</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Python</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Java</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">JavaScript</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">HTML & CSS</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Flask</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Machine Learning</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Data Structures</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Algorithms</span>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">Soft Skills</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Problem Solving</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Receiving Feedback</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Communication</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Adaptability</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Humility</span>
+
+                </div>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold text-white mb-4">Tools & Platforms</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Git & GitHub</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">VS Code</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">IntelliJ IDEA</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Tailwind CSS</span>
+                    <span class="bg-gray-700 text-gray-300 text-sm font-medium px-3 py-1 rounded-full">Chart.js</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script>
+    // JavaScript for the scroll-triggered animations
+    const fadeInElements = document.querySelectorAll('.scroll-fade-in');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('scrolled-in');
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    fadeInElements.forEach(element => {
+        observer.observe(element);
+    });
+</script>
+</body>
+</html>
